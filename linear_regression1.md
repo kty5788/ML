@@ -1,4 +1,12 @@
-'''python
+# 선형회귀 - 선형회귀가 원점을 지나는 직선일때
+
+선형회귀가 원점을 지난다는 가정이라 함은
+
+그래프가 y = wx + b 그래프에서 b가 0임을 의미한다.
+
+---
+
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
@@ -46,4 +54,9 @@ ani2 = FuncAnimation(fig,costfunction, frames= 81, interval=100) # 비용함수 
 
 
 plt.show()
-'''
+```
+
+데이터를 예측하는 가장 '지도학습(supervised learning)'인 선형회귀에서 아주아주 단순한 형태인 y = wx 형태의 꼴읖 보았다.
+
+예측된 값으로 도출된 오른쪽 그래프 (비용함수)는 '이차함수' 형태이다.
+
